@@ -1,0 +1,110 @@
+*{
+	padding:0;
+	margin: 0;
+}
+#detail_con1{
+	padding-top: 100px;
+	margin-left: 180px;
+	height: 100%;
+	width: 250px;
+	background: linear-gradient(to top,#8ed0f2,#dfcab5);
+	float: left;
+	color: #fff;
+}
+#detail_con1 img{
+	width: 372px;
+	height: 246px;
+	margin-left: 70px;
+}
+#detail_con1 .img{
+	width: 372px;
+	height: 246px;
+}
+#detail_con1 .class_info{
+	width: 220px;
+	height: 300px;
+	margin-top: 70px;
+
+}
+#detail_con1 .class_info div{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 35px;
+	border-bottom: 1px solid #fff;
+}
+#detail_con1 .class_info img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 5px;
+	margin-right: 10px;
+}
+#detail_con1 span{
+	font-weight: 400;
+	font-size: 15px;
+}
+#detail_con1 p{
+	font-size: 18px;
+	margin-top: 10px;
+}
+#detail_con2{
+	padding-top: 90px;
+	padding-left: 800px;
+}
+#detail_con2 h3{
+	font-size: 35px;
+	color: #8ed0f2;
+	letter-spacing: 8px;
+	margin-bottom: 25px;
+}
+#detail_con2 span{
+	font-size: 8px;
+	margin-left:10px;
+	margin-top: 80px;
+	font-weight: 400;
+	background:#8ed0f2;
+	width: 50px;
+	height: 20px;
+	color: #fff;
+	padding:4px;
+
+}
+#detail_con2 .des{
+	width: 550px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	font-size: 12px;
+	letter-spacing: 3px;
+	font-weight: 200;
+	color: #888888;
+}
+#detail_con2 button{
+	position: absolute;
+	top: 80%;
+	width: 450px;
+	height: 35px;
+	background:linear-gradient(-45deg,#8ed0f2,#dfcab5);
+	outline: none;
+	border: none;
+	color: #fff;
+	letter-spacing: 10px;
+	cursor: pointer;
+}
+
+#line1{
+	background:linear-gradient(to top,#8ed0f2,#dfcab5);
+	width: 3px;
+	height: 400px;
+	bottom: 0;
+	right: 80px;
+	position: absolute;
+}
+#line2{
+	background:linear-gradient(to left,#8ed0f2,#dfcab5);
+	height: 3px;
+	width: 400px;
+	bottom: 50px;
+	right: 0px;
+	position: absolute;
+}
+

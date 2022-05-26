@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color: #f6f6f6;
+}
+a{
+	text-decoration:none;
+	color: #fff;
+}
+#adminhead li{
+	list-style:none;
+	margin-left: 60px;
+	margin-top: 10px;
+	float: left;
+	color: #fff;
+}
+#xkk{
+	font-weight: 400;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 5px;
+	font-style: oblique;
+}
+nav{
+	width: 100%;
+	height: 40px;
+	background: linear-gradient(-45deg,#8ed0f2,#dfcab5);
+	box-shadow: -1px 0px 10px #888888;
+	border-radius: 0 0 15px 0;
+}
+#rightnav{
+	float: right;
+	margin-right: 150px;
+}
+
+
+#le{
+	width: 200px;
+	height: 650px;
+	background: linear-gradient(-45deg,#8ed0f2,#dfcab5);
+	border-radius: 0 15px 15px 0;
+	text-align: center;
+	float: left;
+	position: fixed;
+}
+#le ul{
+	padding-top: 50px;
+}
+#le li{
+	list-style: none;
+	color: #fff;
+	padding-top:50px;
+	padding-bottom: 50px;
+	letter-spacing: 3px;
+	border: 0;
+}
+#le img{
+	width: 33px;
+	height: 30px;
+}
+#le li:hover{
+	background-color: #f6f6f6;
+	color: #8ed0f2;
+	border-left: 10px solid #8ed0f2;
+}
+
+/*用户管理*/
+#users_guanli,
+#class_guanli,
+#xuanke_guanli,
+#chakan,
+#notice_guanli{
+	box-shadow: inherit -1px 0px 5px #888888;
+	border: 1px;
+	margin-top:50px;
+	margin-left: 250px;
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+	color: #434343;
+}
+#xuanke_guanli{
+	margin-left: 400px;
+}
+#users_head .sousuo form,
+#class_head .sousuo form,
+#xuanke_guanli .sousuo form{
+	text-align: left;
+	color: #8ed0f2;
+}
+#users_head input,
+#class_head input,
+#xuanxiuke input,
+#chakan_ input{
+	width: 220px;
+	height: 20px;
+}
+#users_guanli table,
+#class_guanli table,
+#xuanke_guanli table,
+#chakan_1 table{
+	margin-top: 25px;
+}
+#users_guanli th,
+#class_guanli th,
+#xuanke_guanli th,
+#chakan_1 th{
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	background-color: #f6f6f6;
+	border: 1px solid #8ed0f2;
+}
+#users_guanli td,
+#class_guanli td,
+#xuanke_guanli td,
+#chankan_1 td{
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border: 1px solid #8ed0f2;
+}
+table tr:nth-of-type(even){
+	background-color: #f6f6f6;
+}
+
+#users_guanli button,
+#class_guanli button,
+#xuanke_guanli button,
+#chakan_1 button,
+#notice_guanli button{
+	width: 60px;
+	height: 25px;
+	background:none;
+	font-size: 12px;
+	color: #8ed0f2;
+	outline: none;
+	border:1.5px solid #8ed0f2;
+}
+
+.add,.delete{
+	width: 60px;
+	height: 25px;
+	background:none;
+	font-size: 12px;
+	color: #8ed0f2;
+	outline: none;
+	border:1px solid #8ed0f2;
+	margin-left: 40px;
+}
+.spanspan{
+	margin-bottom: 60px;
+}
+.spanspan span{
+	font-size: 20px;
+	margin: 60px;
+	padding:10px;
+
+}
+.spanspan #span_11,
+.spanspan #span_21,
+.spanspan #span_31{
+	border-bottom: 2px solid #8ed0f2;
+}
+#chakan h3{
+	margin: 30px;
+	text-align: left;
+}
+
+
+#class_guanli .class_xiugai{
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+
+
+
+
+
+#class_guanli #class_two,
+#users_guanli #users_two,
+#notice_guanli{
+	padding-left: 450px;
+	text-align: left;
+	line-height: 3;
+	font-size: 15px;
+}
+#class_guanli #class_two input,
+#users_guanli #users_two input{
+	width: 300px;
+	height: 25px;
+}
+#notice_guanli #no_des{
+	width: 450px;
+	height: 180px;
+}
+#notice_guanli #no_url{
+	width: 450px;
+	height: 80px;
+}
+#notice_guanli input{
+	width: 450px;
+	height: 25px;
+}
+
+
+
+
+
+
+
+
+/*一键置顶*/
+#backtop{
+	position: fixed;
+	bottom: 100px;
+	right: 35px;
+	width:35px;
+	height:35px;
+	padding:5px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	z-index: 10;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 8px;
+}
+
