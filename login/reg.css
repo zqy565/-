@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background: #8ed0f2 url(../login/images/bbw.jpg)center/cover no-repeat;
+	height: 100vh;
+	text-align: center;
+
+}
+
+#con{
+	height: 600px;
+	width: 535px;
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	padding-top:30px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin:30px 450px;
+	box-shadow: -1px 0px 20px 5px #888888;
+	font-family: WenQuanYi Micro Hei;
+	position: absolute;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+li{
+	text-decoration: none;
+	float: left;
+	list-style: none;
+	margin-top:15px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+}
+#fulltop{
+	height: 50px;
+	width: 100%;
+}
+
+#top{
+	padding-left:150px;
+}
+li:hover{
+	border-bottom: 3px solid #8ed0f2; 
+}
+#top .xuan1{
+	font-weight: 600;
+}
+#top #xuan{
+	display: none;
+	top: 40px;
+	height: 70px;
+	width: 200px;
+	color: #8ed0f2;
+	background-color: rgba(255,255,255,0.8);
+	font-size: 15px;
+	position: absolute;
+	z-index: 20;
+	padding-top:30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#top nav li:hover #xuan{
+	display: block;
+}
+
+#con h2{
+	color: #8ed0f2;
+	text-shadow: 1px 0px 10px 5px #888888;
+}
+
+#con input{
+	border: 0;
+	border-bottom: 1px dotted #8ed0f2;
+	width: 350px;
+	height: 35px;
+	margin-top: 30px;
+	background: none;
+	outline: none;
+
+}
+
+#con button{
+	width: 130px;
+	height: 35px;
+	padding:5px;
+	font-size: 15px;
+	background:linear-gradient(45deg,#8ed0f2,#dfcab5);
+	margin-top:50px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+}
+
+.change-box {
+    position: absolute;
+    height: 0px;
+    width: 550px;
+    clip-path: polygon(100% 50%, 50% 100%, 100% 100%);
+    bottom: 0px;
+    transition: .4s;
+    background-color: #8ed0f2;
+}
+.change-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    font-size: 15px;
+    display: none;
+    font-weight: 500;
+    background-color: #8ed0f2;
+    color: #ffffff;
+}
+
+#con:hover .change-box {
+    height: 200px;
+
+}
+
+#con:hover .change-btn {
+    display: block;
+}
+
+.change-btn:hover {
+    text-shadow: 0px 0px 3px rgba(200, 200, 200, .8);
+    cursor: pointer;
+}

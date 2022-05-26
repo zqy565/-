@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#top a{
+	text-decoration: none;
+	color: #8ed0f2;
+}
+
+#top li{
+	text-decoration: none;
+	float: left;
+	list-style: none;
+	margin-top:15px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+    color: #8ed0f2;
+	font-size: 15px;
+	cursor: pointer;
+}
+#top li:hover{
+	border-bottom: 2px solid #8ed0f2;
+}
+#fulltop{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	background-color: #fff;
+	/*box-shadow: -1px 0px 30px 1px rgba(0,0,0,0.2);*/
+}
+#top{
+	padding-left:150px;
+}
+
+#top .my1{
+	float: right;
+	padding-right:  150px;
+	color: #8ed0f2;
+}
+
+#top .my1 a{
+	float: right;
+	margin-top:15px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+	color: #8ed0f2;
+}
+
+#top .my1 a:hover{
+	border-bottom: 2px solid #8ed0f2;
+}
+
+#top .search{
+	height: 30px;
+	width: 270px;
+	display: inline-block;
+	float: left;
+	left: 900px;
+	margin-top: 10px;
+	transition: all .3s;
+	
+}
+
+#top .search input{
+	height: 30px;
+	width: 220px;
+	border: none;
+	border-bottom: 1px solid #8ed0f2;
+	color: #8ed0f2;
+	padding:0 8px;
+	outline: none;
+	font-size: 12px;
+	display: inline;
+	float: left;
+	background: none;
+}
+
+#top .search input::-webkit-input-placeholder{
+	color: #e0e0e0;
+}
+#top .search input::-ms-input-placeholder{
+	color: #e0e0e0;
+}
+#top .search input::-o-input-placeholder{
+	color: #e0e0e0;
+}
+#top .search input::-moz-input-placeholder{
+	color: #e0e0e0;
+}
+
+#top .butt-search{
+	height: 30px;
+	width: 30px;
+	background-image: url(/xuankeke/top/images/Search-1.png);
+	display: inline-block;
+	background-position: 0px,0px;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+}
+
+#timetable{
+	padding-top: 15px;
+	position: fixed;
+	z-index: 5;
+	width: 780px;
+	height: 500px;
+	top: 15%;
+	left: 25%;
+	background: rgba(255,255,255,0.95);
+	display: none;
+	box-shadow: -1px 5px 20px 5px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	font-family: STXihei;
+}
+#timetable th{
+	background-color: #8ed0f2;
+	color: #fff;
+	text-align: center;
+}
+#timetable h1{
+	font-size: 25px;
+	margin-bottom: 15px;
+	color: #8ed0f2;	
+	text-align: center;
+}
+#timetable table .td1{
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	font-size: 13px;
+	color: #8ed0f2;
+	font-weight: bolder;
+	border: 1px solid #8ed0f2;
+}
+#timetable table td{
+	font-size: 12px;
+	width: 100px;
+	height: 75px;
+	text-align: center;
+}
+#close{
+	width: 35px;
+	height: 35px;
+	position: fixed;
+	background: rgba(255,255,255,0.95);
+	top: 10%;
+	left: 80%;
+	display: none;
+	box-shadow: -1px 5px 20px 5px rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+#close img{
+	width: 35px;
+	height: 35px;
+	position: fixed;
+	top: 10%;
+	left: 80%;
+}

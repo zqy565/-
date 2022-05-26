@@ -1,0 +1,284 @@
+<!--圆圆动画-->
+#squre{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	margin-left: 150px;
+	top: 100px;
+	float: left;
+}
+#squre span:nth-child(1){
+	position: absolute;
+	top: 110px;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #8ed0f2;
+	border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
+	color: #8ed0f2;
+	transition: 0.5s;
+	animation: animate 6s linear infinite;
+}
+#squre:hover span:nth-child(1){
+	background:linear-gradient(45deg,#8ed0f2,#dfcab5);
+	opacity: 0.8;
+	border: none;
+	color: #fff;
+}
+#squre span:nth-child(2){
+	position: absolute;
+	top: 110px;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #8ed0f2;
+	border-radius: 38% 60% 63% 37%/51% 44% 56% 59%;
+	color: #8ed0f2;
+	transition: 0.5s;
+	animation: animate 4s linear infinite;
+}
+#squre:hover span:nth-child(2){
+	background:linear-gradient(45deg,#8ed0f2,#dfcab5);
+	opacity: 0.8;
+	border: none;
+	color: #fff;
+}
+#squre span:nth-child(3){
+	position: absolute;
+	top: 110px;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #8ed0f2;
+	border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
+	color: #8ed0f2;
+	transition: 0.5s;
+	animation: ani 8s linear infinite;
+}
+#squre:hover span:nth-child(3){
+	background:linear-gradient(45deg,#8ed0f2,#dfcab5);
+	opacity: 0.8;
+	border: none;	
+}
+#squre:hover #welcome{
+	color: #fff;
+}
+@keyframes animate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@keyframes ani{
+	0%{
+		transform: rotate(360deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+#welcome{
+	position: relative;
+	top: 170px;
+	left: 240px;
+	color: #8ed0f2;
+	text-align: center;
+	z-index: 10;
+	height: 130px;
+	width: 130px;
+	font-size: 15PX;
+	font-family: STXihei;
+}
+#welcome p{
+	letter-spacing: 5px;
+	font-size: 18px;
+}
+#welcome img{
+	margin:10px;
+	width: 35px;
+	height: 35px;
+}
+#infobox,
+#resetbox{
+	width: 300px;
+	height: 300px;
+	border: 1px;
+	margin-left: 400px;
+	padding-left: 150px;
+	text-align: left;
+	float: left;	
+}
+h2{
+	letter-spacing: 5px;
+	font-family:STXihei;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 35px;
+	padding:10px;
+	text-shadow: -1px 0px 2px #8ed0f2; 
+}
+#infobox p{
+	margin-bottom: 5px;
+	font-size: 15px;
+	color: #888888;
+	letter-spacing: 3px;
+}
+#resetbox label,
+#infobox span{
+	font-size: 15px;
+	font-weight: 600;
+	margin-right: 15px;
+	color: #8ed0f2;
+	letter-spacing: 8px;
+}
+#resetbox input{
+	background:none;
+	outline: none;
+	border: 0;;
+	border-bottom: 1px dashed #8ed0f2;
+	width: 220px;
+	height: 25px;
+}
+#resetbox .queding{
+	border: none;
+	margin-left: 120px;
+	margin-top: 10px;
+	width: 70px;
+	height: 25px;
+	outline: none;
+	color: #fff;
+	background:linear-gradient(45deg,#8ed0f2,#dfcab5);
+	border-radius: 5px;
+}
+#infobutt{
+	float: left;
+	width: 120px;
+	margin-left: 60px;
+}
+.infobutt{
+	margin-top: 10px;
+	width: 100px;
+	height: 25px;
+	outline: none;
+	border: 1px solid #8ed0f2;
+	color: #8ed0f2;
+	background:none;
+	border-radius: 5px;
+}
+.infobutt:hover{
+	background:linear-gradient(45deg,#8ed0f2,#dfcab5);
+	border: none;
+	color: #fff;
+
+}
+
+
+.show{
+	width: 1000px;
+	padding-top: 200px;
+	padding-bottom: 350px;
+	padding-left: 50px;
+	margin-left: 100px;
+	
+}
+a{
+	text-decoration: none;
+}
+.item{
+	float: left;
+	height: 200px;
+	width: 180px;
+	background-color: #fff;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 20px;
+	padding-bottom: 30px;
+	overflow: hidden;
+	break-inside: avoid;
+	box-shadow: -1px 0px 20px #dfcab5;
+}
+.show .item .tuike{	
+	float: right;
+	margin-left: 130px;
+	width: 50px;
+	height: 30px;
+	background:linear-gradient(45deg,#8ed0f2,#dfcab5);
+	opacity: 0;
+	outline: none;
+	border: none;
+	position: absolute;
+	cursor: pointer;
+	color: #fff;
+}
+.show .item .tuike a{
+	color: #fff;
+}
+.show .item:hover .tuike{
+	opacity: 1;
+	transition: 0.5s;
+}
+.show .item img{
+	width: 180px;
+	height: 105px;
+}
+.show #cicon{
+	background: url('http://localhost/xuankeke/userinfo/images/课程.png')center/cover no-repeat;
+	width: 40px;
+	height: 40px;
+	margin-left: 475px;
+	margin-top: 50px;
+}
+.type{
+	background-color: #8ed0f2;
+	padding:5px;
+	color: #fff;
+	font-size: 10px;
+	float: right;
+	margin-top: 7px;
+}
+
+.name{
+	margin-top: 40px;
+	font-size: 15px;
+	color: #8ed0f2;
+}
+.day,.teacher{
+	margin-top: 7px;
+	color: rgba(0,0,0,0.7);
+	font-size: 12px;
+}
+
+
+#today{
+	position: absolute;
+	width: 270px;
+	padding-bottom: 200px;
+	text-align: center;
+    right: 100px;
+    border-left: 1px solid #8ed0f2;
+}
+#today img{
+	width: 40px;
+	height: 40px;
+}
+#today .aday{
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-right: 50px;
+	text-align: left;
+}
+#today .aday h4{
+	padding-left: 15px;
+	font-size: 18px;
+	font-weight: 400;
+	border-left: 5px solid #8ed0f2;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+#today .aday p{
+	margin-top: 5px;
+	color: #888888;
+}
